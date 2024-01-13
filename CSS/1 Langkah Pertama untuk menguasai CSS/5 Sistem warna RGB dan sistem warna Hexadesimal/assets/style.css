@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+    font-size: 20px;
+    background-color: black;
+}
+
+button {
+    background-color: chocolate;
+    color: white;
+}
+
+p{
+    background-color: antiquewhite;
+    color: blue;
+}

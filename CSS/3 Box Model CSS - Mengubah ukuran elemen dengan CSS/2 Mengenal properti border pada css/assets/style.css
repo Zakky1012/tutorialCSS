@@ -1,0 +1,14 @@
+div {
+    margin: 30px;
+    padding: 30px;
+    width: 300px;
+}
+
+div { /* Mengenal properti border */
+    border-width: 10px 5px 2px 1px; /* Penerjemahannya itu dari atas kanan bawah kiri */
+    border-top-style: dashed;
+    border-left-style: groove;
+    border-right-style: dashed;
+    border-bottom-style: dashed;
+    border-color: blue;
+}

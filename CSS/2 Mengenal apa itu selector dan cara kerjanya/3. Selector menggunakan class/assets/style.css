@@ -1,0 +1,22 @@
+*{
+    background-color: rgb(213, 27, 27);
+    color: white;
+}
+
+h1, h2, h3 {
+    background-color: black;
+}
+
+span {
+    color: black;
+    font-weight: bold;
+}
+
+#list2 {
+    color: blue;
+}
+
+.h {
+    background-color: azure;
+    color: black;
+}

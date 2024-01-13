@@ -1,0 +1,19 @@
+css adalah untuk styling untuk menggambarkan suatu halaman html yang sangat menarik
+css adalah singkatan dari cascading style sheet
+
+aturan css adalah sebagai berikut :
+
+selector {
+    properti : value ;
+}
+
+contoh nya : 
+
+1. h1 {
+    color : blue
+}
+
+2. img {
+    width : 100px;
+    height : 100px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Selector</title>
+    <style>
+        .jokes > p { /* direct descendent mengambil/mengubah tampilan 1 elemen*/
+            font-size: 16px;
+            color: aqua;
+        }
+
+        .jokes > p :hover{ /* Mencoba pseudo Class */
+            color : blue;
+            cursor: pointer;
+        }
+
+        a + button { /* Mengambil elemen yang bersebelahan disebut Ajdacent Selector */
+            background-color: blue;
+            color: white ;
+            cursor: pointer;
+        }
+
+        button:hover { /* Mencoba pseudo Class */
+            background-color: blue;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+
+        input[type = "password"] { /* Mengambil/mengubah tampilan berdasarkan atribut berdasarkan value nya atau unique nya (Attributes Selector) */
+            color: rgb(0, 85, 255);
+        }
+
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="search" value="">
+    <input type="password" id="" name="">
+    <button>search</button>
+
+    <hr>
+    <Section class="jokes">
+        <h3>udang kalo dari cirebon namanya udang rebon, kalo dari inggris? udang robin !</h3>
+        <p>dipublish oleh : <span>jhontot</span></p>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, odit aliquam soluta dignissimos molestias placeat quae dolorem modi dolor architecto ullam, consequuntur earum, numquam doloribus quaerat ipsum porro maxime ducimus!
+            </p>
+        </div>
+        <button>vote</button>
+    </Section>
+    <hr>
+    <Section class = "jokes">
+        <h3>Gula gula apa yang bukan gula merah ? Gula Aren't !</h3>
+        <p>dipublish oleh : <span>jhontot</span></p>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, odit aliquam soluta dignissimos molestias placeat quae dolorem modi dolor architecto ullam, consequuntur earum, numquam doloribus quaerat ipsum porro maxime ducimus!
+            </p>
+        </div>
+        <button>vote <span>Shock lin</span></button>
+    </Section>
+    <hr>
+    <Section class = "jokes">
+        <h3>Gula gula apa yang bukan gula merah ? Gula Aren't !</h3>
+        <p>dipublish oleh : <span>jhontot</span></p>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, odit aliquam soluta dignissimos molestias placeat quae dolorem modi dolor architecto ullam, consequuntur earum, numquam doloribus quaerat ipsum porro maxime ducimus!
+            </p>
+        </div>
+        <button>vote <span>Shock lin</span></button>
+    </Section>
+    <hr>
+    <Section class = "jokes">
+        <h3>Gula gula apa yang bukan gula merah ? Gula Aren't !</h3>
+        <p>dipublish oleh : <span>jhontot</span></p>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, odit aliquam soluta dignissimos molestias placeat quae dolorem modi dolor architecto ullam, consequuntur earum, numquam doloribus quaerat ipsum porro maxime ducimus!
+            </p>
+        </div>
+        <button>vote <span>Shock lin</span></button>
+    </Section>
+    <hr>
+    <p>Jokes ini semata-mata hanya untuk menghibur diri pribadi, bukan untuk kalian wlee</p>
+    <a href=""></a>
+    <button>kirim</button>
+
+</body>
+</html>

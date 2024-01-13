@@ -1,0 +1,3 @@
+catatan :
+1. untuk penggunaan css jangan lupa titik koma
+2. apabila lupa titik koma maka style setelahnya tidak bisa di eksekusi karena akan di kompilasi oleh browser bahwa itu hanyalah text biasa
